@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Dmitry Levin](https://up.htmlacademy.ru/htmlcss/24/user/974897).
-* Наставник: `Неизвестно`.
+* Наставник:Сергей Кравченко (https://htmlacademy.ru/profile/id13921).
 
 ---
 
