@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона - Главная</title>
+</head>
 
-  </body>
+<body>
+  <div class="container">
+    <header class="header">
+      <nav class="navigation-item">
+        <ul class="navigation-list">
+          <li><a href="#">Информация</a></li>
+          <li><a href="#">Фото и видео</a></li>
+          <li><a href="#">Карта штата</a></li>
+          <li><a href="catalog.html">Гостиницы</a></li>
+        </ul>
+      </nav>
+      <div class="header-logo">
+        <a href="index.html"><img src="http://placehold.it/500x200" width="138" height="70" alt="Лого" /></a>
+      </div>
+    </header>
+    <p>
+          Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!
+        </p>
+    <!--<section class="welcome-block">
+
+    	Блок с преимуществами+ описание+ фото
+
+    </section>-->
+    <section class="description-main">
+      <div class="description-text">
+        <h1>
+            Седона &ndash; небольшой городок в аризоне,<br>
+            заслуживающий большего!
+          </h1>
+        <p>
+          Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!
+        </p>
+      </div>
+    </section>
+    <!--<section class="description">
+      Блок с мета-описанием *пока не трогаем*
+
+    </section>-->
+    <section class="interest-block">
+      <div class="interest-item">
+        <h3>Заинтересовались?</h3>
+        <p>Укажите предполагаемые даты поездки,
+          <br> и мы покажем вам лучшие предложения гостиниц в седоне
+        </p>
+        <a class="search-buttton" href="form.html">Поиск гостиницы в седоне</a>
+      </div>
+    </section>
+    <!--- Таблица бронирования-->
+    <section class="map">
+      <form class="search-form search-form-invisible" action="#" method="post">
+        <label class="entry" for="date-of-entry">
+          Дата заезда:
+          <a class="date-of-entry-cal" href="#"><span class="icon-calendar"></span></a>
+        </label>
+        <input type="text" name="date-of-entry" value="24 апреля 2017" id="date-of-entry">
+        <label class="departure" for="date-of-departure">
+          Дата выезда:
+          <a class="date-of-departure-cal" href="#"><span class="icon-calendar"></span></a>
+        </label>
+        <input type="text" name="date-of-departure" value="4 июля 2017" id="date-of-departure">
+        <!--строки прибавления/убавления посетителей-->
+        <div class="amount">
+
+          <label for="amount-of-adults">Взрослые:</label>
+            <button type="button" name="minus-adult"><span class="icon-minus"></span></button>
+            --><input type="text" name="amount-of-adults" value="2" id="amount-of-adults"><!--
+            --><button type="button" name="plus-adult"><span class="icon-plus"></span></button>
+
+          <label for="amount-of-children">Дети:</label>
+            <button type="button" name="minus-children"><span class="icon-minus"></span></button><!--
+            --><input type="text" name="amount-of-children" value="0" id="amount-of-children"><!--
+            --><button type="button" name="plus-children"><span class="icon-plus"></span></button>
+
+        </div>
+        <button type="submit">Найтит</button>
+      </form>
+    </section>
+    <!--Тут футер(хештег седона(кликабельна) ссцлки на соцсети, лого академии--->
+    <footer class="footer footer-index">
+      <div class="tag-item">
+        <a href="#">#visitsedona</a>
+      </div>
+      <div class="social">
+        <a href="#" class="social-button-twitter"><span class="twitter"></span></a>
+        <a href="#" class="social-button-facebook"><span class="facebook"></span></a>
+        <a href="#" class="social-button-youtube"><span class="youtube"></span></a>
+      </div>
+      <div class="developer-item">
+        <a href="https://htmlacademy.ru/">
+          <span>Website by</span>
+          <div class="developer-logo">
+          </div>
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
 </html>
